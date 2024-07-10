@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="bg-gradient-to-r from-blue-700 to-slate-800">
         <div className="flex h-12 items-center justify-between px-11">
-            <Link to="/" className="text-white text-xl" >
+            <Link to="/" className="text-white text-xl font-semibold" >
               Finexo
             </Link>
             <div>
