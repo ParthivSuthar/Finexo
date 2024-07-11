@@ -14,7 +14,7 @@ function Header() {
                 to="/"
                 className={({ isActive }) =>
                   `text-white text-lg ${
-                    isActive ? "text-cyan-400" : "text-white"
+                    isActive ? "text-cyan-500" : "text-white"
                   }`
                 }
               >
@@ -26,7 +26,7 @@ function Header() {
                 to="/about"
                 className={({ isActive }) =>
                   `text-white text-lg ${
-                    isActive ? "text-cyan-400" : "text-white"
+                    isActive ? "text-cyan-500" : "text-white"
                   }`
                 }
               >
@@ -38,7 +38,7 @@ function Header() {
                 to="/services"
                 className={({ isActive }) =>
                   `text-white text-lg ${
-                    isActive ? "text-cyan-400" : "text-white"
+                    isActive ? "text-cyan-500" : "text-white"
                   }`
                 }
               >
@@ -50,7 +50,7 @@ function Header() {
                 to="/whyus"
                 className={({ isActive }) =>
                   `text-white text-lg ${
-                    isActive ? "text-cyan-400" : "text-white"
+                    isActive ? "text-cyan-500" : "text-white"
                   }`
                 }
               >
@@ -62,7 +62,7 @@ function Header() {
                 to="/team"
                 className={({ isActive }) =>
                   `text-white text-xl ${
-                    isActive ? "text-cyan-400" : "text-white"
+                    isActive ? "text-cyan-500" : "text-white"
                   }`
                 }
               >
